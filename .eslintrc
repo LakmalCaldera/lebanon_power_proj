@@ -1,0 +1,13 @@
+{
+  "plugins": ["node"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:node/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "node/exports-style": ["error", "module.exports"],
+    "quotes": [2, "single", { "avoidEscape": true }],
+    "no-console": 1
+  }
+}
